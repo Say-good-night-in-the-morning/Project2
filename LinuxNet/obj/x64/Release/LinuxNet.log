@@ -1,0 +1,12 @@
+﻿  Validating sources
+  Copying sources remotely to '106.52.165.96'
+  Validating architecture
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  Client.cpp
+F:\CodeCache\LinuxNet\LinuxNet\Client.cpp(47,17): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNet\Client.cpp(47,17): warning :    int ret = recv(sclient, recData, 255, 0);
+F:\CodeCache\LinuxNet\LinuxNet\Client.cpp(47,17): warning :              ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+  Linking objects
+  LinuxNet.vcxproj -> F:\CodeCache\LinuxNet\LinuxNet\bin\x64\Release\LinuxNetClient.out

@@ -1,0 +1,93 @@
+﻿  Validating sources
+  Copying sources remotely to '106.52.165.96'
+  Validating architecture
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  Server.cpp
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(285,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(285,17): warning :      c[0] = 0xc0 | (char)(chr >> 6);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(285,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(286,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(286,17): warning :      c[1] = 0x80 | (char)(chr & 0x3f);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(286,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(290,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(290,17): warning :      c[0] = 0xe0 | (char)(chr >> 12);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(290,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(291,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(291,17): warning :      c[1] = 0x80 | (char)((chr >> 6) & 0x3f);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(291,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(292,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(292,17): warning :      c[2] = 0x80 | (char)(chr & 0x3f);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(292,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(296,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(296,17): warning :      c[0] = 0xf0 | (char)(chr >> 18);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(296,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(297,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(297,17): warning :      c[1] = 0x80 | (char)((chr >> 12) & 0x3f);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(297,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(298,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(298,17): warning :      c[2] = 0x80 | (char)((chr >> 6) & 0x3f);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(298,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(299,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(299,17): warning :      c[3] = 0x80 | (char)(chr & 0x3f);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(299,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(653,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(653,17): warning :      c[0] = 0xc0 | (char)(chr >> 6);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(653,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(654,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(654,17): warning :      c[1] = 0x80 | (char)(chr & 0x3f);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(654,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(658,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(658,17): warning :      c[0] = 0xe0 | (char)(chr >> 12);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(658,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(659,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(659,17): warning :      c[1] = 0x80 | (char)((chr >> 6) & 0x3f);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(659,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(660,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(660,17): warning :      c[2] = 0x80 | (char)(chr & 0x3f);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(660,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(664,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(664,17): warning :      c[0] = 0xf0 | (char)(chr >> 18);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(664,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(665,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(665,17): warning :      c[1] = 0x80 | (char)((chr >> 12) & 0x3f);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(665,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(666,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(666,17): warning :      c[2] = 0x80 | (char)((chr >> 6) & 0x3f);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(666,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(667,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(667,17): warning :      c[3] = 0x80 | (char)(chr & 0x3f);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(667,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1027,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1027,17): warning :      s[0] = 0xc0 | (char)(chr >> 6);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1027,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1028,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1028,17): warning :      s[1] = 0x80 | (char)(chr & 0x3f);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1028,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1036,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1036,17): warning :      s[0] = 0xe0 | (char)(chr >> 12);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1036,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1037,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1037,17): warning :      s[1] = 0x80 | (char)((chr >> 6) & 0x3f);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1037,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1038,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1038,17): warning :      s[2] = 0x80 | (char)(chr & 0x3f);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1038,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1046,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1046,17): warning :      s[0] = 0xf0 | (char)(chr >> 18);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1046,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1047,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1047,17): warning :      s[1] = 0x80 | (char)((chr >> 12) & 0x3f);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1047,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1048,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1048,17): warning :      s[2] = 0x80 | (char)((chr >> 6) & 0x3f);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1048,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1049,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1049,17): warning :      s[3] = 0x80 | (char)(chr & 0x3f);
+F:\CodeCache\LinuxNet\LinuxNetServer\utf8.h(1049,17): warning :             ~~~~~^~~~~~~~~~~~~~~~~~~~
+F:\CodeCache\LinuxNet\LinuxNetServer\Server.cpp(71,17): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\CodeCache\LinuxNet\LinuxNetServer\Server.cpp(71,17): warning :    int ret = recv(sClient, revData, 255, 0);
+F:\CodeCache\LinuxNet\LinuxNetServer\Server.cpp(71,17): warning :              ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+  Linking objects
+  LinuxNetServer.vcxproj -> F:\CodeCache\LinuxNet\LinuxNetServer\bin\x64\Release\LinuxNetServer.out
